@@ -1,0 +1,80 @@
+# EMS Doctrine Prototype Configuration
+
+# Project metadata
+project:
+  name: "EMS Doctrine Prototype"
+  version: "0.1.0"
+  description: "Phase 0 prototype for digitizing Air Force electromagnetic spectrum operations doctrine"
+
+# Document processing settings
+document_processing:
+  supported_formats: ["pdf", "txt", "docx"]
+  max_file_size_mb: 50
+  text_extraction:
+    method: "pymupdf"  # Options: pymupdf, pdfplumber
+    preserve_formatting: true
+
+# NLP and entity recognition
+nlp:
+  spacy_model: "en_core_web_sm"
+  custom_entities:
+    - "EMS_EQUIPMENT"
+    - "FREQUENCY"
+    - "AUTHORITY"
+    - "OPERATION_TYPE"
+    - "CONSTRAINT"
+
+# EMS-specific domain knowledge
+ems_domain:
+  frequency_bands:
+    HF: "3-30 MHz"
+    VHF: "30-300 MHz"
+    UHF: "300-3000 MHz"
+    SHF: "3-30 GHz"
+    EHF: "30-300 GHz"
+
+  equipment_types:
+    - "jammer"
+    - "radio"
+    - "radar"
+    - "antenna"
+    - "receiver"
+    - "transmitter"
+
+  operation_types:
+    - "electronic_attack"
+    - "electronic_protection"
+    - "electronic_warfare_support"
+    - "spectrum_management"
+    - "SEAD"  # Suppression of Enemy Air Defenses
+
+  authorities:
+    - "JFACC"   # Joint Force Air Component Commander
+    - "JFC"     # Joint Force Commander
+    - "JEMSO"   # Joint Electronic Warfare Staff Officer
+    - "spectrum_manager"
+    - "EWO"     # Electronic Warfare Officer
+
+# Knowledge graph settings
+knowledge_graph:
+  storage_type: "sqlite"  # Phase 0: sqlite, later: neo4j
+  database_path: "data/processed/ems_knowledge.db"
+
+# Rule extraction
+rule_extraction:
+  deontic_keywords:
+    obligations: ["must", "shall", "will", "required"]
+    permissions: ["may", "can", "allowed", "authorized"]
+    prohibitions: ["must not", "shall not", "prohibited", "forbidden"]
+
+# API settings
+api:
+  host: "localhost"
+  port: 5000
+  debug: true
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/ems_prototype.log"

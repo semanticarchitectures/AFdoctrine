@@ -1,0 +1,115 @@
+# SAMPLE ELECTROMAGNETIC SPECTRUM OPERATIONS DOCTRINE
+## Extracted from Air Force Doctrine Publication 3-51: Electromagnetic Warfare
+
+### 1. INTRODUCTION
+
+Electromagnetic spectrum operations are critical to modern Air Force missions. The electromagnetic spectrum encompasses all frequencies from 3 Hz to 300 GHz, including radio waves, microwaves, and infrared radiation.
+
+### 2. COMMAND AND CONTROL
+
+2.1 AUTHORITY AND RESPONSIBILITIES
+
+The Joint Force Air Component Commander (JFACC) must exercise operational control over all electromagnetic warfare assets within the area of operations. The JFACC shall coordinate frequency allocation with the Joint Electromagnetic Warfare Staff Officer (JEMSO).
+
+Electronic warfare officers (EWOs) are authorized to conduct spectrum management activities within their assigned frequency bands. EWOs may not operate outside their designated frequency ranges without explicit authorization from the spectrum manager.
+
+2.2 COORDINATION REQUIREMENTS
+
+All units conducting electromagnetic operations must coordinate with the spectrum manager before transmitting on frequencies above 1 GHz. VHF and UHF communications require prior coordination with the air operations center.
+
+Electronic attack operations shall not interfere with friendly communications systems. Jammers must operate on frequencies between 30 MHz and 3 GHz unless otherwise specified in the air tasking order.
+
+### 3. ELECTRONIC WARFARE OPERATIONS
+
+3.1 ELECTRONIC ATTACK
+
+Electronic attack includes actions taken to prevent or reduce an enemy's effective use of the electromagnetic spectrum. Units are authorized to conduct jamming operations against enemy radar systems operating in the X-band (8-12 GHz) frequency range.
+
+Suppression of Enemy Air Defenses (SEAD) missions require coordination with the Joint Force Commander (JFC). SEAD operations must not target civilian radio frequencies in the FM band (88-108 MHz).
+
+3.2 ELECTRONIC PROTECTION
+
+Electronic protection measures must be implemented to ensure friendly forces can effectively use the electromagnetic spectrum. All radio equipment shall be hardened against electromagnetic pulse effects.
+
+Communications systems must not transmit on frequencies allocated to enemy electronic warfare systems. Personnel are prohibited from using commercial cellular frequencies (850-1900 MHz) in contested environments.
+
+3.3 ELECTRONIC WARFARE SUPPORT
+
+Electronic warfare support provides intelligence information through the passive interception of electromagnetic emissions. ESM equipment may monitor enemy communications in the HF band (3-30 MHz) without specific authorization.
+
+Signal intelligence operations require approval from the theater commander. COMINT activities shall be conducted in accordance with national security directives.
+
+### 4. SPECTRUM MANAGEMENT
+
+4.1 FREQUENCY ALLOCATION
+
+The spectrum manager must ensure deconfliction of all electromagnetic emissions within the joint operations area. Frequency allocations are valid for 24-hour periods unless extended by competent authority.
+
+Military units are prohibited from transmitting on civilian emergency frequencies (121.5 MHz and 243 MHz) except in actual emergency situations. Guard frequencies must be monitored continuously during flight operations.
+
+4.2 EQUIPMENT COORDINATION
+
+Radar systems operating above 1 GHz require coordination with airspace control authorities. Search radars shall operate on assigned frequencies within the S-band (2-4 GHz) or C-band (4-8 GHz) ranges.
+
+Tactical data links must use encrypted transmissions on designated frequencies. Link 16 operations are authorized on frequencies between 960-1215 MHz for air-to-air coordination.
+
+### 5. RULES OF ENGAGEMENT
+
+5.1 HOSTILE EMISSIONS
+
+Enemy radar systems may be targeted for electronic attack if they pose a threat to friendly forces. Electronic attack is prohibited against non-combatant emissions unless they are being used for military purposes.
+
+Jamming operations must cease immediately upon detection of friendly forces in the target area. EW systems shall not interfere with search and rescue frequencies (406 MHz).
+
+5.2 COLLATERAL DAMAGE CONSIDERATIONS
+
+Electronic warfare operations must minimize interference with civilian communications infrastructure. Operators are required to avoid targeting cellular towers and broadcast facilities unless they are being used for military command and control.
+
+Hospital communications on designated medical frequencies are prohibited targets under all circumstances. Emergency services frequencies must remain clear of electronic warfare activities.
+
+### 6. TRAINING AND CERTIFICATION
+
+6.1 PERSONNEL QUALIFICATIONS
+
+Electronic warfare specialists must complete formal training before operating EW equipment in operational environments. Operators shall demonstrate proficiency in frequency identification and threat recognition.
+
+Spectrum managers are required to maintain current certification in electromagnetic compatibility analysis. Training records must be updated annually and available for inspection by competent authority.
+
+6.2 EQUIPMENT MAINTENANCE
+
+EW systems must undergo calibration every 90 days to ensure accurate frequency output. Antenna systems shall be inspected monthly for proper alignment and signal strength.
+
+Maintenance personnel are authorized to test equipment transmissions only on designated training frequencies below 50 MHz. Test transmissions must not exceed 30 seconds in duration without coordination.
+
+### 7. LIMITATIONS AND CONSTRAINTS
+
+Environmental factors may degrade electromagnetic propagation at frequencies above 10 GHz during adverse weather conditions. Operators must account for atmospheric attenuation when planning long-range communications.
+
+Equipment operating in the millimeter wave spectrum (30-300 GHz) requires specialized maintenance and handling procedures. Personnel exposure to RF energy must comply with safety standards specified in AFI 48-148.
+
+International frequency agreements restrict certain military operations near national borders. Cross-border electromagnetic activities require diplomatic clearance through appropriate channels.
+
+### APPENDIX A: FREQUENCY BAND DESIGNATIONS
+
+- HF (High Frequency): 3-30 MHz
+- VHF (Very High Frequency): 30-300 MHz
+- UHF (Ultra High Frequency): 300-3000 MHz
+- SHF (Super High Frequency): 3-30 GHz
+- EHF (Extremely High Frequency): 30-300 GHz
+
+### APPENDIX B: COMMON EMS EQUIPMENT
+
+- AN/ALQ-99 Tactical Jamming System
+- AN/ALR-56M Radar Warning Receiver
+- AN/APG-77 Fire Control Radar
+- AN/ARC-210 Multi-band Radio
+- Joint Tactical Radio System (JTRS)
+
+### APPENDIX C: COORDINATION AUTHORITIES
+
+- Joint Force Air Component Commander (JFACC)
+- Joint Force Commander (JFC)
+- Joint Electromagnetic Warfare Staff Officer (JEMSO)
+- Spectrum Manager
+- Electronic Warfare Officer (EWO)
+- Air Operations Center (AOC)
