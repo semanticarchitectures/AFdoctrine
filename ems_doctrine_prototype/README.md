@@ -289,7 +289,7 @@ This is a proof-of-concept prototype with the following limitations:
 
 ## License
 
-This project is developed for the United States Air Force and is subject to applicable government regulations and security requirements.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 

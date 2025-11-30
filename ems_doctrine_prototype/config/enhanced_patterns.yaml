@@ -1,0 +1,175 @@
+# Enhanced Patterns for EMS Doctrine Processing
+# Advanced entity recognition and rule extraction patterns
+
+# Enhanced EMS Equipment Types
+ems_equipment_enhanced:
+  jamming_systems:
+    - "AN/ALQ-99 Tactical Jamming System"
+    - "AN/ALQ-131 ECM Pod"
+    - "AN/ALQ-184 ECM Pod"
+    - "Growler jamming pod"
+    - "self-protection jamming"
+    - "escort jamming"
+    - "standoff jamming"
+
+  radar_systems:
+    - "AN/APG-77 Fire Control Radar"
+    - "AN/APG-81 AESA Radar"
+    - "search radar"
+    - "tracking radar"
+    - "fire control radar"
+    - "early warning radar"
+
+  communication_systems:
+    - "AN/ARC-210 Multi-band Radio"
+    - "Joint Tactical Radio System"
+    - "JTRS"
+    - "SINCGARS"
+    - "Have Quick"
+    - "tactical data link"
+
+  ew_support_systems:
+    - "AN/ALR-56M Radar Warning Receiver"
+    - "RWR"
+    - "ESM equipment"
+    - "ELINT system"
+    - "COMINT system"
+    - "direction finding equipment"
+
+# Enhanced Frequency Designations
+frequency_designations:
+  standard_bands:
+    HF: "3-30 MHz"
+    VHF: "30-300 MHz"
+    UHF: "300-3000 MHz"
+    L_band: "1-2 GHz"
+    S_band: "2-4 GHz"
+    C_band: "4-8 GHz"
+    X_band: "8-12 GHz"
+    Ku_band: "12-18 GHz"
+    K_band: "18-27 GHz"
+    Ka_band: "27-40 GHz"
+    SHF: "3-30 GHz"
+    EHF: "30-300 GHz"
+
+  special_frequencies:
+    guard_frequencies:
+      - "121.5 MHz"
+      - "243 MHz"
+      - "emergency frequencies"
+
+    tactical_frequencies:
+      - "225-400 MHz"  # UHF tactical
+      - "30-88 MHz"    # VHF low band
+      - "138-174 MHz"  # VHF high band
+
+    navigation_frequencies:
+      - "108-118 MHz"  # VOR/ILS
+      - "960-1215 MHz" # TACAN/DME
+
+# Enhanced Authority Patterns
+military_authorities:
+  command_authorities:
+    - "Joint Force Commander"
+    - "JFC"
+    - "Joint Force Air Component Commander"
+    - "JFACC"
+    - "Air Operations Center"
+    - "AOC"
+    - "Combined Air Operations Center"
+    - "CAOC"
+
+  ems_specialists:
+    - "Joint Electromagnetic Warfare Staff Officer"
+    - "JEMSO"
+    - "Electronic Warfare Officer"
+    - "EWO"
+    - "Spectrum Manager"
+    - "Frequency Manager"
+    - "Electronic Warfare Coordinator"
+
+  operational_units:
+    - "Squadron"
+    - "Wing"
+    - "Group"
+    - "Flight"
+    - "Element"
+    - "Formation"
+
+# Enhanced Deontic Logic Patterns
+advanced_deontic_patterns:
+  strong_obligations:
+    keywords: ["must", "shall", "will", "is required to", "is mandated to"]
+    modifiers: ["always", "invariably", "without exception", "under all circumstances"]
+
+  conditional_obligations:
+    keywords: ["should", "ought to", "is expected to", "is supposed to"]
+    conditions: ["unless", "except when", "provided that", "in the event of"]
+
+  permissions:
+    keywords: ["may", "can", "is authorized to", "is permitted to", "is allowed to"]
+    scope: ["within limits", "as appropriate", "when necessary", "if required"]
+
+  prohibitions:
+    keywords: ["must not", "shall not", "may not", "is prohibited from", "is forbidden to"]
+    emphasis: ["never", "under no circumstances", "at no time", "without exception"]
+
+  emergency_exceptions:
+    triggers: ["emergency", "combat situation", "TIC", "troops in contact", "immediate threat"]
+    overrides: ["notwithstanding", "despite", "regardless of", "emergency authority"]
+
+# Enhanced Operational Concepts
+operational_concepts:
+  electronic_warfare:
+    - "Electronic Attack"
+    - "EA"
+    - "Electronic Protection"
+    - "EP"
+    - "Electronic Warfare Support"
+    - "ES"
+    - "Suppression of Enemy Air Defenses"
+    - "SEAD"
+    - "Destruction of Enemy Air Defenses"
+    - "DEAD"
+
+  spectrum_operations:
+    - "spectrum management"
+    - "frequency coordination"
+    - "electromagnetic compatibility"
+    - "EMC"
+    - "electromagnetic interference"
+    - "EMI"
+    - "frequency deconfliction"
+
+  mission_types:
+    - "Close Air Support"
+    - "CAS"
+    - "Air Interdiction"
+    - "AI"
+    - "Combat Air Patrol"
+    - "CAP"
+    - "Suppression of Enemy Air Defenses"
+    - "SEAD"
+
+# Complex Rule Patterns
+complex_rule_patterns:
+  conditional_rules:
+    - pattern: "If {condition}, then {actor} {modal} {action}"
+      example: "If enemy radar is detected, then aircraft may engage with jamming"
+
+    - pattern: "When {trigger}, {actor} {modal} {action} {object}"
+      example: "When entering hostile airspace, pilots must activate defensive systems"
+
+    - pattern: "During {phase}, {actor} {modal} {action} unless {exception}"
+      example: "During SEAD operations, aircraft may target radar sites unless civilian"
+
+  temporal_rules:
+    - pattern: "{Actor} {modal} {action} within {timeframe}"
+      example: "Controllers must acknowledge requests within 30 seconds"
+
+    - pattern: "After {event}, {actor} {modal} {action} for {duration}"
+      example: "After emergency declaration, frequencies must remain clear for 15 minutes"
+
+  hierarchical_rules:
+    - pattern: "{superior} may override {subordinate} when {condition}"
+      example: "JFACC may override local frequency assignments when operational necessity requires"

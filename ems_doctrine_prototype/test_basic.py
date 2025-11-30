@@ -77,30 +77,40 @@ def test_knowledge_graph():
     """Test knowledge graph functionality."""
     try:
         from ems_doctrine.knowledge_graph import KnowledgeGraph, Node
+        import tempfile
+        import os
 
-        kg = KnowledgeGraph(":memory:")  # Use in-memory database for testing
+        # Use a temporary file for testing instead of in-memory
+        temp_db = tempfile.mktemp(suffix='.db')
 
-        # Test adding a node
-        test_node = Node(
-            id="test_node",
-            label="Test Entity",
-            type="TEST",
-            properties={"test": "value"},
-            source_document="test_doc"
-        )
+        try:
+            kg = KnowledgeGraph(temp_db)
 
-        result = kg.add_node(test_node)
-        assert result == True, "Failed to add node"
+            # Test adding a node
+            test_node = Node(
+                id="test_node",
+                label="Test Entity",
+                type="TEST",
+                properties={"test": "value"},
+                source_document="test_doc"
+            )
 
-        # Test querying
-        nodes = kg.query_nodes(node_type="TEST")
-        assert len(nodes) == 1, "Failed to query nodes"
+            result = kg.add_node(test_node)
+            assert result == True, "Failed to add node"
 
-        stats = kg.get_statistics()
-        assert stats['total_nodes'] >= 1, "Statistics not working"
+            # Test querying
+            nodes = kg.query_nodes(node_type="TEST")
+            assert len(nodes) == 1, "Failed to query nodes"
 
-        print("✅ Knowledge graph working: nodes can be added and queried")
-        return True
+            stats = kg.get_statistics()
+            assert stats['total_nodes'] >= 1, "Statistics not working"
+
+            print("✅ Knowledge graph working: nodes can be added and queried")
+            return True
+        finally:
+            # Clean up temp file
+            if os.path.exists(temp_db):
+                os.remove(temp_db)
 
     except Exception as e:
         print(f"❌ Knowledge graph error: {e}")

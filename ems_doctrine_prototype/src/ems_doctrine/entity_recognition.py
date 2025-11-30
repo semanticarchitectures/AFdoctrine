@@ -80,10 +80,10 @@ class EMSEntityRecognizer:
 
         # Authority patterns
         authority_patterns = [
-            [{"UPPER": {"IN": ["JFACC", "JFC", "JEMSO"]}}],
+            [{"TEXT": {"IN": ["JFACC", "JFC", "JEMSO"]}}],
             [{"LOWER": "spectrum"}, {"LOWER": "manager"}],
             [{"LOWER": "electronic"}, {"LOWER": "warfare"}, {"LOWER": "officer"}],
-            [{"UPPER": "EWO"}],
+            [{"TEXT": "EWO"}],
         ]
 
         # Add patterns to matcher
